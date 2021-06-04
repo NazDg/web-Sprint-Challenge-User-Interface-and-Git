@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -65,11 +65,33 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* stuff for header */
+.LambdaLogo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 2%;
+}
+
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.HomeHeaderPhoto img{
+    width: 100%;
+    padding: 20px;
+}
+/* about header */
+.AboutHeaderPhoto{
+    align-content: center;
+    
+    padding: 5% 24%;
+}
+
+/* end of stuff for header */
 
 .top-content {
     display: flex;
@@ -101,16 +123,119 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* box colors */
+.middle-content .boxes .boxone{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxtwo{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxthree{
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxfour{
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxfive{
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxsix{
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxseven{
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxeight{
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxnine{
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxten{
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end of box colors */
 
 .bottom-content {
     display: flex;
@@ -143,4 +268,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about section body! */
+
+.containerabout-page p{
+    color: black;
+    font-size: 20px;
+    margin: 5% 10%;
+    border-style: none none dotted none;
+    box-sizing: border-box;
+}
+
+.firstrowabout{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    color: black;
+    
+}
+
+.secondrowabout{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    color: black;}
+   
+.abouthone{
+    text-align: center;
+    font-size: x-large;
+}
+
+.lastinfoabout{
+    text-align: center;
+}
+
+.lastinfoabout h3{
+    font-size: x-large;
 }
