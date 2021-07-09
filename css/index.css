@@ -261,3 +261,40 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+
+.containerabout-page p{
+    color: black;
+    font-size: 20px;
+    margin: 5% 10%;
+    border-style: dashed;
+    box-sizing: border-box;
+}
+
+.firstrowabout{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    color: black;
+
+}
+
+.secondrowabout{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    color: black;}
+
+.abouthone{
+    text-align: center;
+    font-size: x-large;
+}
+
+.lastinfoabout{
+    text-align: center;
+}
+
+.lastinfoabout h3{
+    font-size: x-large;
+}
